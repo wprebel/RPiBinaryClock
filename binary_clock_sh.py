@@ -38,3 +38,6 @@ try:
 
 except KeyboardInterrupt:
     hat.clear()
+
+finally:  
+    GPIO.cleanup() # this ensures a clean exit  
